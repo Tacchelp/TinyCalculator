@@ -3,8 +3,7 @@ A small project built during Summer Holidays to refresh my Ocaml skills
 
 ## Features
 - Lexer and Parser
-- Supports basic operations
-- Only support Postfix Notation (RPN) (yet)
+- Supports basic operations (+ , -, *, / and parenthesis)
 
 ## How to compile and run 
 ```bash
