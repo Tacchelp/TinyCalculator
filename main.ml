@@ -13,4 +13,4 @@ let rec calc (t : tree) : int =
 
 let () = 
   let input = read_line () in
-  Printf.printf "The result is: %d\n" (calc (parser_suffix (lexer input)))
+  Printf.printf "The result is: %d\n" (calc (parser (lexer input)))

@@ -13,3 +13,6 @@ val pre_lexer : char list -> token option list
 val lexer : string -> token list
 type tree = Node of (tree * token * tree) | Leaf of int
 val parser_suffix : token list -> tree
+val prop : token -> int
+val infix_to_suffix : token list -> token list
+val parser : token list -> tree
