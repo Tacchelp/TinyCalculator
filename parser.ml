@@ -1,4 +1,4 @@
-include Lexer
+open Lexer
 type tree = Node of (tree * token * tree) | Leaf of int
 
 let parser_suffix (l : token list) : tree =

@@ -1,5 +1,5 @@
-include Lexer
-include Parser
+open Lexer
+open Parser
 
 
 let rec calc (t : tree) : int =
